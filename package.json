@@ -2,7 +2,7 @@
   "name": "scss-to-css-project",
   "version": "1.0.0",
   "scripts": {
-    "dev": "sass styles/style.scss dist/out.css --style=compressed"
+    "dev": "sass src/style.scss dist/out.css --style=compressed"
   },
   "devDependencies": {
     "sass": "^1.32.0"
