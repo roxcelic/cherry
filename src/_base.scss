@@ -1,0 +1,46 @@
+@import 'variables';
+@import 'fonts';
+
+html {
+    background-color: $background-color;
+    font-family: $font;
+    font-size: $font-size;
+    color: $primary-color;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    transition: $transition;
+    padding: 0;
+    margin: 0;
+} 
+html *{
+    transition: $transition;
+}
+
+:link{
+    color: $link-color;
+}
+a:hover{
+    color: $link-color;
+    --underline-width: 90%;
+}
+a {
+    background: linear-gradient(currentColor 0 0) bottom center/ var(--underline-width, 100%) 0.1em no-repeat;
+    color: $link-color;
+    text-decoration: none;
+    transition: background-size 0.5s;
+}
+::selection {
+    background: $link-color;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: $heading;
+}
+h1, h2, h3, h4, h5, h6, p {
+    transition: all ease-in-out 0.15s;
+    width: 100%;
+}
+p{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

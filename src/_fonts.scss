@@ -1,0 +1,22 @@
+@import "./key/size";
+@import "./key/imports";
+
+h1 {
+    font-size: $Xxlarge;
+    padding: $heading-padding;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: $Xlarge;
+    padding: $heading-padding;
+}
+
+h3 {
+    font-size: $large;
+    padding: $heading-padding;
+}
+
+h4 {
+    padding: $heading-padding;
+}

@@ -1,0 +1,93 @@
+@import 'md-vr';
+
+/* Bold and Italic */
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/* Lists */
+ul, ol {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Blockquote */
+blockquote {
+    border-left: 4px solid $border-color;
+    padding: 0.5em 1em;
+    color: $highlight-code;
+    background-color: $highlight-background;
+    margin: 1em 0;
+}
+
+.astro-code{
+    background-color: $code-color !important;
+}
+/* Code */
+code {
+    font-family: 'Courier New', monospace;
+    background-color: $highlight-background;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+}
+
+pre {
+    background-color: $highlight-background;
+    padding: 1em;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+
+th, td {
+    border: 1px solid $border-color;
+    padding: 0.5em 1em;
+    text-align: left;
+}
+
+th {
+    background-color: $highlight-background;
+}
+
+/* Horizontal Rule */
+hr {
+    border: 0;
+    border-top: 1px solid $border-color;
+    margin: 2em 0;
+}
+
+/* Additional Elements */
+del {
+    text-decoration: line-through;
+}
+
+ins {
+    text-decoration: underline;
+}
+
+mark {
+    background-color: $highlight;
+    color: $highlight-code;
+}
