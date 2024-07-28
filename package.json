@@ -2,8 +2,7 @@
   "name": "scss-to-css-project",
   "version": "1.0.0",
   "scripts": {
-    "dev": "sass --watch src/style.scss:dist/styles.css",
-    "test": "sass --watch src/style.scss:../web-home/public/styles.css"
+    "dev": "sass --watch src/style.scss:dist/styles.css"
   },
   "devDependencies": {
     "sass": "^1.32.0"
