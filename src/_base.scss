@@ -22,10 +22,10 @@ html *{
 }
 a:hover{
     color: $link-color;
-    --underline-width: 90%;
+    --underline-width: 100%;
 }
 a {
-    background: linear-gradient(currentColor 0 0) bottom center/ var(--underline-width, 100%) 0.1em no-repeat;
+    background: linear-gradient(currentColor 0 0) bottom center/ var(--underline-width, 90%) 0.1em no-repeat;
     color: $link-color;
     text-decoration: none;
     transition: background-size 0.5s;
@@ -43,4 +43,5 @@ h1, h2, h3, h4, h5, h6, p {
 p{
     padding-top: 1em;
     padding-bottom: 1em;
+    color: $link-color;
 }
